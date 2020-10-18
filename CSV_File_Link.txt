@@ -1,0 +1,2 @@
+https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/moviedataset.zip
+there is a file called rating.csv. we can download from that site
