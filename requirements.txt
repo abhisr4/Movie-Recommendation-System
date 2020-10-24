@@ -4,5 +4,3 @@ flask_restful
 Click
 Flask
 gunicorn
-json
-math
