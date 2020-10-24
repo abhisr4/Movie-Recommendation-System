@@ -38,7 +38,7 @@ def recommender_system(userInput,movies_df,movies_with_genres_df,ratings_df):
     genreTable = genreTable.drop('movieId', 1).drop('title', 1).drop('genres', 1).drop('year', 1)
     recommendationTable_df = ((genreTable*userProfile).sum(axis=1))/(userProfile.sum())
     recommendationTable_df = recommendationTable_df.sort_values(ascending=False)
-    return movies_df.loc[movies_df['movieId'].isin(recommendationTable_df.head(20).keys())]
+    return movies_df.loc[movies_df['movieId'].isin(recommendationTable_df.head(5).keys())]
 
 #debug purpose-> no issues
 #t0=time.time()
