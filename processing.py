@@ -21,7 +21,7 @@ def process_movie_data(movies_df):
 
 def process_rating_data(ratings_df):
     #ratings_df=pd.read_csv("ratings.csv")
-    ratings_df=ratings_df.drop("timestamp",axis=1)
+    #ratings_df=ratings_df.drop("timestamp",axis=1)
     return ratings_df
 
 def recommender_system(userInput,movies_df,movies_with_genres_df,ratings_df):
