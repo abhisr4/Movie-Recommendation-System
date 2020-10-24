@@ -27,4 +27,4 @@ if __name__ =="__main__":
     ratings=pd.read_csv("ratings.csv")
     movies,encoded_movies=process_movie_data(movies)
     ratings=process_rating_data(ratings)
-    app.run(debug=True)
+    app.run(debug=False)
